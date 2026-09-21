@@ -18,14 +18,14 @@ python3 filter_alerts.py events.json
 
 ## Что получилось
 
-Из 8 событий критичны 3: disk 90%, payment failed, db timeout. Отфильтрованы 4 события info (user login, cpu 40%, heartbeat, deploy ok) и одно warn (cache miss). Логика одна строка: отбор по полю severity со значением critical.
+Из 8 событий критичны 3: disk 90%, payment failed и db timeout. Четыре события info и одно событие warn не попадают в вывод. Фильтр проверяет поле severity на значение critical.
 
 Вывод скрипта:
 
 ```
 critical: disk 90%
-critical: payment failed gateway error
-critical: db timeout 5s
+critical: payment failed
+critical: db timeout
 критичных 3
 ```
 

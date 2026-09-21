@@ -16,7 +16,7 @@ def main():
     events = load_events(path)
     critical = filter_critical(events)
     for e in critical:
-        print(f"critical: {e['event']} {e['detail']}")
+        print(f"critical: {e['event']}")
     print(f"критичных {len(critical)}")
 
 
