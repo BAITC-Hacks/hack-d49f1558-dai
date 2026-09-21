@@ -1,0 +1,10 @@
+[
+  {"id": 1, "event": "disk", "detail": "90%", "severity": "critical"},
+  {"id": 2, "event": "user login", "detail": "ok", "severity": "info"},
+  {"id": 3, "event": "cpu", "detail": "40%", "severity": "info"},
+  {"id": 4, "event": "payment failed", "detail": "gateway error", "severity": "critical"},
+  {"id": 5, "event": "heartbeat", "detail": "ok", "severity": "info"},
+  {"id": 6, "event": "db timeout", "detail": "5s", "severity": "critical"},
+  {"id": 7, "event": "cache miss", "detail": "12%", "severity": "warn"},
+  {"id": 8, "event": "deploy", "detail": "ok", "severity": "info"}
+]
